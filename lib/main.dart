@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       providers: [ 
         ChangeNotifierProvider.value(value: ImagesProvider()),
       ],
-          child: MaterialApp(
+        child: MaterialApp(
             debugShowCheckedModeBanner: false,
         title: 'Coruscate Task',
         theme: ThemeData(

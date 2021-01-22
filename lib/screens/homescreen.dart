@@ -44,8 +44,7 @@ class _HomePageState extends State<HomePage> {
         style: TextStyle(fontFamily: 'FredokaOne'),
         ),
       ),
-      body: _isLoad
-          ? Center(child: CircularProgressIndicator())
+      body: _isLoad ? Center(child: CircularProgressIndicator())
           : Container(
               padding: EdgeInsets.all(8),
               child: GridView.builder(
